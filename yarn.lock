@@ -16,11 +16,14 @@
     chokidar "^1.7.0"
     decache "^4.4.0"
 
-"@artsy/palette@2.27.3":
-  version "2.27.3"
-  resolved "https://registry.yarnpkg.com/@artsy/palette/-/palette-2.27.3.tgz#0b859f753ff5216c26dfc031deec90468110da24"
-  integrity sha512-idH6GyhLr9nhHxjCF8/cdDxKrSYt1zIHhJIlGuqJTV56aUAzOrilSlUFaPsjfbVqxzabVKgKae02sMUH+xjSKg==
+"@artsy/palette@2.34.0":
+  version "2.34.0"
+  resolved "https://registry.yarnpkg.com/@artsy/palette/-/palette-2.34.0.tgz#7de7d8796314408561b2ae8c6f2ff0025ae44f0f"
+  integrity sha512-E6gDdTsVIdXPSRJE2Km59AUvq+H4KwVfwXk0fWN4eiPfs7OYPT31Wd0esuphH51iCTParZ3vHLnWv+UNRKh9+w==
   dependencies:
+    gatsby-plugin-catch-links "^2.0.9"
+    moment "^2.23.0"
+    moment-timezone "^0.5.23"
     rc-slider "^8.6.2"
     react "^16.5.0"
     react-live "^1.12.0"
@@ -5682,6 +5685,14 @@ function.prototype.name@^1.1.0:
     function-bind "^1.1.1"
     is-callable "^1.1.3"
 
+gatsby-plugin-catch-links@^2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-catch-links/-/gatsby-plugin-catch-links-2.0.9.tgz#1fd5bf02a7f997f7b36c4e0c28b689f0c3d92726"
+  integrity sha512-0I78VTwy9GJkh8nEt33VASo/cvBmDtdChoISQ+U0Pio5pXEXT2RQIesuHwcm4pXG/VRDVnEYxa95PLUccW5vFg==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    escape-string-regexp "^1.0.5"
+
 gauge@~2.7.1:
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-2.7.3.tgz#1c23855f962f17b3ad3d0dc7443f304542edfe09"
@@ -8733,10 +8744,22 @@ moment-timezone@^0.5.13:
   dependencies:
     moment ">= 2.9.0"
 
+moment-timezone@^0.5.23:
+  version "0.5.23"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.23.tgz#7cbb00db2c14c71b19303cb47b0fb0a6d8651463"
+  integrity sha512-WHFH85DkCfiNMDX5D3X7hpNH3/PUhjTGcD0U1SgfBGZxJ3qUmJh5FdvaFjcClxOvB3rzdfj4oRffbI38jEnC1w==
+  dependencies:
+    moment ">= 2.9.0"
+
 "moment@>= 2.9.0", moment@^2.10.6, moment@^2.11.1:
   version "2.18.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
   integrity sha1-w2GT3Tzhwu7SrbfIAtu8d6gbHA8=
+
+moment@^2.23.0:
+  version "2.23.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.23.0.tgz#759ea491ac97d54bac5ad776996e2a58cc1bc225"
+  integrity sha512-3IE39bHVqFbWWaPOMHZF98Q9c3LDKGTmypMiTM2QygGXXElkFWIH7GxfmlwmY2vwa+wmNsoYZmG2iusf1ZjJoA==
 
 mongodb-core@2.1.9:
   version "2.1.9"
